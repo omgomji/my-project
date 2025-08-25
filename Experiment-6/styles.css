@@ -1,0 +1,35 @@
+.drawing-container {
+    border: 1px solid #222;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 860px;
+    background: #fff;
+}
+
+h1 { 
+    margin: 0 0 12px 0; 
+}
+
+.canvas-wrapper {
+    border: 1px solid #222;
+    background: #fafafa;
+    padding: 12px;
+}
+
+#drawArea {
+    border: 1px solid #444;
+    background: #fdfdfd;
+    display: block;
+}
+
+.hint {
+    font-size: 0.9em;
+    margin-top: 12px;
+    color: #333;
+}
+
+.line {
+    stroke: #0a74c9;
+    stroke-width: 2;
+    fill: none;
+}

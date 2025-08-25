@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="drawing-container">
+        <h1>SVG Drawing Tool</h1>
+        <div class="canvas-wrapper">
+            <!-- SVG acts like our drawing area -->
+            <svg id="drawArea" width="800" height="400" role="img" aria-label="Drawing area" tabindex="0"></svg>
+        </div>
+        <p class="hint">Click and drag inside the box to draw lines. Release mouse to finish a line. Draw again to start a new line.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
