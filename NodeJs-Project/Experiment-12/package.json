@@ -1,0 +1,21 @@
+{
+  "name": "experiment-12",
+  "version": "1.0.0",
+  "description": "Concurrent Ticket Booking System with seat locking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node concurrency-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "locking",
+    "booking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
